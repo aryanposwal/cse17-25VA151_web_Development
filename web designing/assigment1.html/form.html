@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Form Example</title>
+    <style>
+        /* Basic Styling */
+        .product {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            width: 200px;
+        }
+
+        #orderForm {
+            display: none; 
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px solid #333;
+            width: 300px;
+        }
+
+        button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+        .product{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;        }
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body >
+    <main>
+
+<div class="product">
+    <h3>Product Name</h3>
+    <p>Price: $10</p>
+    <button onclick="openForm()">Add to Cart</button>
+</div>
+
+<!-- Hidden Form -->
+<div id="orderForm" >
+    <h3>Order Form</h3>
+
+    <form action="answer7.html">
+        <label>Name:</label><br>
+        <input type="text" ><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" ><br><br>
+
+        <label>Address:</label><br>
+        <textarea ></textarea><br><br>
+
+        <button type="submit">Submit Order</button>
+    </form>
+</div>
+
+<script>
+    function openForm() {
+        document.getElementById("orderForm").style.display = "block";
+    }
+</script>
+</main>
+
+</body>
+</html>

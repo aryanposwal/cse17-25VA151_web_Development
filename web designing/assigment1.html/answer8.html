@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu</title>
+    <style>
+        body{
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-block a{
+            display: block;
+            padding: 12px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 2px;
+        }
+
+        .nav-inline a{
+            display: inline;
+            padding: 10px;
+            color: white;
+            background: #444;
+            text-decoration: none;
+        }
+
+        .nav-inline-block a{
+            display: inline-block;
+            padding: 12px 20px;
+            background: #555;
+            color: white;
+            text-decoration: none;
+            margin-right: 4px;
+        }
+
+        .nav-float a{
+            float: left;
+            padding: 12px 20px;
+            background: #666;
+            color: white;
+            text-decoration: none;
+            margin-right: 2px;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        h2{
+            margin: 20px 0 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Block Navigation</h2>
+    <div class="nav-block">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <h2>Inline Navigation</h2>
+    <div class="nav-inline">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <h2>Inline-Block Navigation</h2>
+    <div class="nav-inline-block">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="#">Support</a>
+    </div>
+
+    <h2>Float Navigation</h2>
+    <div class="nav-float">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="clear"></div>
+
+</body>
+</html>

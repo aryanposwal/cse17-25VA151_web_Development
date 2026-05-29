@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(79, 188, 224);
+    margin: 0%;
+    padding: 0%;
+   /* background-image: url('anime.jpeg'); */
+    /*  background-repeat:repeat-x ;
+    background-position: top left 600px; */
+    /* background-size: cover; */
+}
+html,*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+p{
+    font-family: arial;
+    font-size: 50px;
+    font-weight: 700;
+    font-size: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 0px 4px rgb(16, 155, 55);
+    /* display: inline-block; */
+}
+#para{
+    color: white;
+}
+img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    border-width: 10px;
+} 
