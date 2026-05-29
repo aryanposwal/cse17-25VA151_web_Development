@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    font-size: arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(171, 116, 14);
+
+}
+search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    border-radius: 2px;
+}
+.search-input{
+width: 100%;
+font-size: 1rem;
+border: none;
+}
+.search-icon{
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+    background-color: rgb(246, 162, 6);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: rgb(21, 98, 129)
+}
+span{
+    font-size: 0.7rem;
+
+}
+.nav-second{
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+.nav-cart{
+    width: 35px;
+    height: 30px;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #242929;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel-all{
+    font-size: 20px;
+}
+.mid-element{
+    justify-content: center;
+    display: inline;
+    width: 70%;
+}
+.mid-element p{
+    display: inline;
+    justify-content: space-evenly;
+    font-size: 1rem;
+   cursor: pointer;
+   margin-left: 13px;
+}
+.herosection{
+    background-image: url(hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 24%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 14px;
+}
+.box-image{
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
